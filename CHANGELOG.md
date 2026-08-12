@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.0 (2026-08-12)
+
+
+### Features
+
+* initial release ([c9d5daa](https://github.com/ajiho/rolldown-plugin-copy-files/commit/c9d5daad45716bc1096d2b7869f6d5cbc49988ab))
+
 ## [0.1.1](https://github.com/ajiho/rolldown-plugin-copy-files/compare/v0.1.0...v0.1.1) (2026-08-12)
 
 
