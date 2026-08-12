@@ -6,9 +6,9 @@ export default defineConfig({
     restoreMocks: true,
     mockReset: true,
     environment: "node",
-    include: ["test/**/*.test.js"],
+    include: ["test/**/*.test.ts"],
     coverage: {
-      include: ["src/**/*.js"],
+      include: ["src/**/*.ts"],
       exclude: [...configDefaults.exclude],
       provider: "v8",
 

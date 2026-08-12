@@ -1,6 +1,7 @@
+/** @type { import('size-limit').SizeLimitConfig } */
 export default [
   {
-    limit: "5KB",
+    limit: "500B",
     path: "./dist/index.js",
   },
 ];
