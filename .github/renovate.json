@@ -1,0 +1,28 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:best-practices", ":semanticCommits", ":semanticCommitTypeAll(chore)"],
+  "enabledManagers": ["npm", "github-actions"],
+  "ignorePresets": [":pinDevDependencies"],
+  "prHourlyLimit": 5,
+  "timezone": "Asia/Shanghai",
+  "labels": ["dependencies", "renovate"],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "groupName": "dev dependencies",
+      "matchDepTypes": ["devDependencies"]
+    },
+    {
+      "enabled": false,
+      "matchDepTypes": ["peerDependencies"]
+    },
+    {
+      "matchPackageNames": ["node"],
+      "enabled": false
+    },
+    {
+      "matchPackageNames": ["/oxlint/"],
+      "labels": ["linting"]
+    }
+  ]
+}

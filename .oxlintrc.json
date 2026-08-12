@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "ignorePatterns": ["dist/**", "coverage/**", "vendor/**", "test/snapshots/**"],
+  "plugins": ["typescript", "unicorn", "oxc"],
+  "categories": {
+    "correctness": "error"
+  },
+  "rules": {
+    "unicorn/no-empty-file": "off",
+    "no-unused-vars": ["error", { "caughtErrorsIgnorePattern": "^_" }]
+  },
+  "env": {
+    "builtin": true
+  }
+}
