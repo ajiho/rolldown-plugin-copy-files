@@ -1,6 +1,6 @@
 {
   "name": "rolldown-plugin-copy-files",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "File copy plugin for Rolldown.",
   "keywords": [
     "build-plugin",
