@@ -1,6 +1,7 @@
 # rolldown-plugin-copy-files
 
 [![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-048754?logo=buymeacoffee)](https://www.lujiahao.com/sponsor)
+[![npm version](https://img.shields.io/npm/v/rolldown-plugin-copy-files)](https://www.npmjs.com/package/rolldown-plugin-copy-files)
 [![Node](https://img.shields.io/node/v/rolldown-plugin-copy-files.svg)](https://nodejs.org/en/about/previous-releases)
 [![Test](https://img.shields.io/github/actions/workflow/status/ajiho/rolldown-plugin-copy-files/tests.yml?label=Test&logo=github&style=flat-square&branch=main)](https://github.com/ajiho/rolldown-plugin-copy-files/actions/workflows/tests.yml)
 [![codecov](https://codecov.io/github/ajiho/rolldown-plugin-copy-files/graph/badge.svg?token=YR846BMB6Y)](https://codecov.io/github/ajiho/rolldown-plugin-copy-files)
