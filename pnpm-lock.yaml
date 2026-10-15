@@ -167,7 +167,7 @@ importers:
   .:
     dependencies:
       native-copyfiles:
-        specifier: ^2.0.3
+        specifier: ^2.1.1
         version: 2.1.1
       rolldown:
         specifier: ^1.2.0

@@ -62,7 +62,7 @@
     "release": "releaseasy"
   },
   "dependencies": {
-    "native-copyfiles": "^2.0.3"
+    "native-copyfiles": "^2.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
