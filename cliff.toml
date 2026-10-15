@@ -73,7 +73,7 @@ split_commits = false
 # An array of regex based parsers to modify commit messages prior to further processing.
 commit_preprocessors = [{ pattern = '\((\w+\s)?#([0-9]+)\)', replace = "" }]
 commit_parsers = [
-  # Skip commits without a scope, except breaking changes (e.g., "feat!: xxx")
+  # Skip release commits (e.g., "release: v1.0.0")
   { message = "^release:", skip = true },
 ]
 # Exclude commits that are not matched by any commit parser.
