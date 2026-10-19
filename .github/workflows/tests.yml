@@ -39,3 +39,19 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           fail_ci_if_error: true
           verbose: true
+
+  all-checks:
+    name: All checks passed
+    if: ${{ always() }}
+    needs: check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verify all matrix jobs succeeded
+        if: ${{ needs.check.result != 'success' }}
+        run: |
+          echo "One or more CI matrix jobs failed or were cancelled."
+          exit 1
+
+      - name: All checks passed
+        run: echo "All CI matrix jobs passed."
