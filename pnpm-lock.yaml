@@ -176,8 +176,8 @@ importers:
   .:
     dependencies:
       native-copyfiles:
-        specifier: ^2.1.1
-        version: 2.1.1
+        specifier: ^2.1.2
+        version: 2.1.2
       rolldown:
         specifier: ^1.2.0
         version: 1.2.14
@@ -966,8 +966,8 @@ packages:
   chardet@2.2.0:
     resolution: {integrity: sha512-rddelWYNPRrXq6PtNEN2S3f6t9ILzvqaN5pVgi4kqt9jHQaXIial9PznB5iSPVlQSLNaaH22ItWz3EJtQ10+OA==}
 
-  cli-nano@1.4.2:
-    resolution: {integrity: sha512-GOdduU8pXcDVVQGm1/NtGRK+B9CmvP1vs5Y0JJSNloLJQW/V9sCy9TYt8u3RcEWmRVoGAPdhjjo9CstDpHuGdw==}
+  cli-nano@1.4.3:
+    resolution: {integrity: sha512-z1tcBVLYGOJyncQVF625uDPE2Z1J1iY32NxRnXeWhQbAUC0cBZq4aBcy5LPOc3/Ha5Fowtoz7mfDqlCtAUSuFQ==}
     engines: {node: ^20.0.0 || >=22.0.0}
 
   cli-width@4.1.0:
@@ -1307,8 +1307,8 @@ packages:
   nanospinner@1.2.2:
     resolution: {integrity: sha512-Zt/AmG6qRU3e+WnzGGLuMCEAO/dAu45stNbHY223tUxldaDAeE+FxSPsd9Q+j+paejmm0ZbrNVs5Sraqy3dRxA==}
 
-  native-copyfiles@2.1.1:
-    resolution: {integrity: sha512-dP0ib7hPmUCqK93NPcQ1fWF1sLnxdTI9dE1P5z4OvlgIzemFTT39lofEbZ/l1p8YD2jZKnCgDlMzrSnHoqlV/Q==}
+  native-copyfiles@2.1.2:
+    resolution: {integrity: sha512-yxMm+PnU+npKXEcsHES10qwecOHvEQ5OBl+RsS3KiJticJQRdoND2m5EpF9Zo464nGQU2H44AKTzWMWmub1LVg==}
     engines: {node: ^22.17.0 || >=24.0.0}
     hasBin: true
 
@@ -2204,7 +2204,7 @@ snapshots:
 
   chardet@2.2.0: {}
 
-  cli-nano@1.4.2: {}
+  cli-nano@1.4.3: {}
 
   cli-width@4.1.0: {}
 
@@ -2452,9 +2452,9 @@ snapshots:
     dependencies:
       picocolors: 1.1.1
 
-  native-copyfiles@2.1.1:
+  native-copyfiles@2.1.2:
     dependencies:
-      cli-nano: 1.4.2
+      cli-nano: 1.4.3
       untildify: 6.0.0
 
   npm-normalize-package-bin@6.0.0: {}
