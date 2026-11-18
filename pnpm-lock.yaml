@@ -176,8 +176,8 @@ importers:
   .:
     dependencies:
       native-copyfiles:
-        specifier: ^2.1.2
-        version: 2.1.2
+        specifier: ^2.1.3
+        version: 2.1.3
       rolldown:
         specifier: ^1.2.0
         version: 1.2.14
@@ -1307,8 +1307,8 @@ packages:
   nanospinner@1.2.2:
     resolution: {integrity: sha512-Zt/AmG6qRU3e+WnzGGLuMCEAO/dAu45stNbHY223tUxldaDAeE+FxSPsd9Q+j+paejmm0ZbrNVs5Sraqy3dRxA==}
 
-  native-copyfiles@2.1.2:
-    resolution: {integrity: sha512-yxMm+PnU+npKXEcsHES10qwecOHvEQ5OBl+RsS3KiJticJQRdoND2m5EpF9Zo464nGQU2H44AKTzWMWmub1LVg==}
+  native-copyfiles@2.1.3:
+    resolution: {integrity: sha512-iNpZ885sV39h4Ch6UHwpdd5QlnYE1mGqynye7+ljyDf+b++ar4ZxpuCXdNxTsdUF45mHurYtlQClZk34YYyoXg==}
     engines: {node: ^22.17.0 || >=24.0.0}
     hasBin: true
 
@@ -2452,7 +2452,7 @@ snapshots:
     dependencies:
       picocolors: 1.1.1
 
-  native-copyfiles@2.1.2:
+  native-copyfiles@2.1.3:
     dependencies:
       cli-nano: 1.4.3
       untildify: 6.0.0
